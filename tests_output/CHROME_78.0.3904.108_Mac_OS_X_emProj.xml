@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="6"
+            tests="4">
+
+  <testsuite name="emProj"
+    errors="1" failures="6" hostname="" id="" package="emProj" skipped="1"
+    tests="4" time="18.42" timestamp="">
+  
+    <testcase name="Testing the ability to edit an employees" classname="emProj" time="0.3230" assertions="0">
+    </testcase>
+  
+    <testcase name="Testing the cancel feature" classname="emProj" time="11.19" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if value of &lt;Element [name=@nameInput]&gt; contains: &#34;[object Object]&#34; in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;New Employee&#34;[0m">    at Page.cancelEm (/Users/zartora/Documents/DevMtn/emProj/pageObjects/emPage.js:119:21)
+    at Object.Testing the cancel feature (/Users/zartora/Documents/DevMtn/emProj/tests/emProj.js:21:14)</failure>
+
+      <failure message="Testing if value of &lt;Element [name=@phoneInput]&gt; contains: &#34;[object Object]&#34; in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;1111111111&#34;[0m">    at Page.cancelEm (/Users/zartora/Documents/DevMtn/emProj/pageObjects/emPage.js:120:21)
+    at Object.Testing the cancel feature (/Users/zartora/Documents/DevMtn/emProj/tests/emProj.js:21:14)</failure>
+
+      <failure message="Testing if value of &lt;Element [name=@emailInput]&gt; contains: &#34;[object Object]&#34; in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;abc&#34;[0m">    at Page.cancelEm (/Users/zartora/Documents/DevMtn/emProj/pageObjects/emPage.js:121:21)
+    at Object.Testing the cancel feature (/Users/zartora/Documents/DevMtn/emProj/tests/emProj.js:21:14)</failure>
+
+      <failure message="Testing if value of &lt;Element [name=@titleInput]&gt; contains: &#34;[object Object]&#34; in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;New Employee&#34;[0m">    at Page.cancelEm (/Users/zartora/Documents/DevMtn/emProj/pageObjects/emPage.js:122:21)
+    at Object.Testing the cancel feature (/Users/zartora/Documents/DevMtn/emProj/tests/emProj.js:21:14)</failure>
+
+    <failure message="    at Page.cancelEm (/Users/zartora/Documents/DevMtn/emProj/pageObjects/emPage.js:122:21)">    at Object.Testing the cancel feature (/Users/zartora/Documents/DevMtn/emProj/tests/emProj.js:21:14)</failure>
+    </testcase>
+  
+    <testcase name="Testing the delete employee feature" classname="emProj" time="0.04300" assertions="0">
+    </testcase>
+  
+    <testcase name="Testing the search feature" classname="emProj" time="6.866" assertions="3">
+
+      <failure message="Testing if element &lt;Element [name=@listEm]&gt; contains text: &#34;Hello&#34; in 1000 ms. - expected [0;32m&#34;Hello&#34;[0m but got: [0;31m&#34;Clear
++ Add Employee&#34;[0m">    at Page.searchEm (/Users/zartora/Documents/DevMtn/emProj/pageObjects/emPage.js:150:21)
+    at Object.Testing the search feature (/Users/zartora/Documents/DevMtn/emProj/tests/emProj.js:28:14)</failure>
+
+      <failure message="Timed out while waiting for element &lt;[name=&#34;clearSearch]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Page.wait (/Users/zartora/Documents/DevMtn/emProj/pageObjects/emPage.js:5:14)
+    at Page.clearSEm (/Users/zartora/Documents/DevMtn/emProj/pageObjects/emPage.js:156:14)
+    at Object.Testing the search feature (/Users/zartora/Documents/DevMtn/emProj/tests/emProj.js:29:14)</failure>
+
+    <failure message="    at Page.wait (/Users/zartora/Documents/DevMtn/emProj/pageObjects/emPage.js:5:14)">    at Page.clearSEm (/Users/zartora/Documents/DevMtn/emProj/pageObjects/emPage.js:156:14)
+    at Object.Testing the search feature (/Users/zartora/Documents/DevMtn/emProj/tests/emProj.js:29:14)</failure>
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Checking the employee IDs" classname="emProj">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
